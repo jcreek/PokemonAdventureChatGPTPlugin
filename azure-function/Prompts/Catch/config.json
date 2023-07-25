@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "description": "Generate a narrative of the user attempting to catch a Pokémon",
+  "type": "completion",
+  "completion": {
+    "max_tokens": 200,
+    "temperature": 0.8,
+    "top_p": 0.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0
+  },
+  "input": {
+    "parameters": [
+      {
+        "name": "input",
+        "description": "Name of the Pokémon to catch",
+        "defaultValue": ""
+      }
+    ]
+  }
+}

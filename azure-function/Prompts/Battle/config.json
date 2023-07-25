@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "description": "Generate a narrative of the user battling a Pokémon",
+  "type": "completion",
+  "completion": {
+    "max_tokens": 300,
+    "temperature": 0.7,
+    "top_p": 0.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0
+  },
+  "input": {
+    "parameters": [
+      {
+        "name": "input",
+        "description": "Name of the Pokémon to battle",
+        "defaultValue": ""
+      }
+    ]
+  }
+}
